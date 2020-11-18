@@ -1,0 +1,21 @@
+package com.biz.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.biz.bbs.domain.persistence.BBsDao;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value = "/api")
+public class BBsApiController {
+	
+	@Autowired
+	private BBsDao bbsDao;
+	
+	@RequestMapping(value = "/list")
+	public list() {
+		
+	}
+
+}
