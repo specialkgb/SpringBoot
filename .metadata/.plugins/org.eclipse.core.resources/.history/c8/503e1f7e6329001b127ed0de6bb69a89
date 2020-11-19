@@ -1,9 +1,0 @@
-package com.biz.controller;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-
-@RestController
-@RequestMapping(value = "/api")
-public class BBsApiController {
-
-}
